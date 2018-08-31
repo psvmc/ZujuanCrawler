@@ -8,4 +8,4 @@ pom.xml.*
 
 ＃Java
 *.class
-src/main/webapp/webpic/*
+src/main/webapp/uploadimgs/*
