@@ -1,7 +1,7 @@
 package com.config;
 
 import com.controller.ht.IndexController;
-import com.controller.ht.TArticleController;
+import com.controller.ht.ZQuestionController;
 import com.jfinal.config.Routes;
 import com.plugin.kindedtor.controller.KindeditorController;
 
@@ -15,8 +15,6 @@ public class HtRoutes extends Routes {
 	@Override
 	public void config() {
 		add("/", IndexController.class);
-		add("/article", TArticleController.class);
-		add("/kindeditor", KindeditorController.class);
-	
+		add("/question", ZQuestionController.class);
 	}
 }

@@ -9,8 +9,8 @@
         <module name="zujuan_crawler" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="zujuan_crawler" target="1.5" />
+    <bytecodeTargetLevel target="1.6">
+      <module name="zujuan_crawler" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
